@@ -5,28 +5,26 @@ package com.jet.edu;
  */
 class Calculate {
 
-    public static int sum(int a, int b) {
+    public static int sum(int a, int b) { // ищем и возвращаем сумму переменных
         return a + b;
     }
 
-    public static int sub(int a, int b) {
+    public static int sub(int a, int b) { // ищем и возвращаем разность переменных
         return a - b;
     }
 
-    public static int mul(int a, int b) {
+    public static int mul(int a, int b) { // ищем и возвращаем произведение переменных
         return a * b;
     }
 
-    public static int div(int a, int b) {
+    public static int div(int a, int b) { // ищем и возвращаем частное переменных
         return a / b;
     }
 
-    public static int memory(int number, int mem) {
+    public static int memory(int number1, int number2, int number3, int number4, int mem) {
 
-            mem=mem+number;
+            mem=mem+number1 +number2+number3+number4; // Суммируем все 4 результата операций
+        // разность, сумма, произведение, частное и возвращаем
         return mem;
     }
-   // public static int memoryplus(int a, int b) {
-        //return a * b;
-    //}
-}
+   }
