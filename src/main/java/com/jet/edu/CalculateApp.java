@@ -29,5 +29,33 @@ public class CalculateApp {
             System.out.println("Общая сумма операций:      " + mem);
             per=0; vto=0;tre=0;chet=0;
         }
+
+        System.out.println("\n\n");
+
+        //double - переменные
+
+        double c=.5, d=.4, per1=.0, vto1=.0, tre1=.0, chet1=.0, mem1=.0;
+
+        for (int i=1; i<5; i++){
+            if(i==1){
+                per1= Calculate.sum(c,d);
+                System.out.println("Сумма чисел c и d:         " + per1);
+            }
+            if (i==2){
+                vto1= Calculate.sub(c,d);
+                System.out.println("Разность чисел c и d:      " + vto1);
+            }
+            if (i==3){
+                tre1= Calculate.mul(c,d);
+                System.out.println("Произведение чисел c и d:  " + tre1);
+            }
+            if (i==4){
+                chet1= Calculate.div(c,d);
+                System.out.println("Частное чисел c и d:       " + chet1);
+            }
+            mem1=Calculate.memory(per1, vto1, tre1, chet1, mem1);
+            System.out.println("Общая сумма операций:      " + mem1);
+            per1=.0; vto1=.0; tre1=.0; chet1=.0;
+        }
     }
 }
