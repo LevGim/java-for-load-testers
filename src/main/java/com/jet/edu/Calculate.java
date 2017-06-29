@@ -50,7 +50,7 @@ class Calculate {
     public static double memory(double number1, double number2, double number3, double number4, double mem) {
 
         mem=mem+number1 +number2+number3+number4; // Суммируем все 4 результата операций
-        // разность, сумма, произведение, частное и возвращаем
+        // разность, сумма, произведение, частное и возвращаем.
         return mem;
     }
    }
