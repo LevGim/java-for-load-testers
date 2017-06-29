@@ -32,7 +32,7 @@ public class CalculateApp {
 
         System.out.println("\n\n");
 
-        //double - переменные
+        //double - переменные.
 
         double c=.5, d=.4, per1=.0, vto1=.0, tre1=.0, chet1=.0, mem1=.0;
 
